@@ -54,7 +54,7 @@ print("----------------------------")
 print(f"Total Months: {len(list)}")
 #Total p&l
 print(f"Total: ${profitloss}")
-#Average change - NEED TO REMOVE THE FIRST CHANGESUM LOOP AMOUNT
+#Average change
 average = changesum / float(len(changelist))
 print(f"Average Change: ${round(average,2)}")
 #Greatest increase in profits, date and amount
